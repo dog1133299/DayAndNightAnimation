@@ -1,0 +1,410 @@
+ @-webkit-keyframes sky{
+  0%{background-color: rgb(128, 223, 255);}
+  30%{background-color: rgb(128, 223, 255);}
+
+  50%{background-color: rgb(255, 204, 128);}
+  70%{background-color:rgb(51, 51, 77);}
+  100%{background-color: rgb(51, 51, 77);}
+ }
+  @keyframes sky{
+  0%{background-color: rgb(128, 223, 255);}
+  30%{background-color: rgb(128, 223, 255);}
+
+  50%{background-color: rgb(255, 204, 128);}
+  70%{background-color:rgb(51, 51, 77);}
+  100%{background-color: rgb(51, 51, 77);}
+ }
+  @-webkit-keyframes rotate{
+  0%{-webkit-transform: rotate(1deg);transform: rotate(1deg); } 
+  100%{-webkit-transform: rotate(360deg);transform: rotate(360deg); }
+ }
+  @keyframes rotate{
+  0%{-webkit-transform: rotate(1deg);transform: rotate(1deg); } 
+  100%{-webkit-transform: rotate(360deg);transform: rotate(360deg); }
+ }
+
+ @-webkit-keyframes sun{
+  0%{background-color: rgb(255, 190, 51); } 
+  100%{background-color:rgb(255, 239, 204); }
+ }
+
+ @keyframes sun{
+  0%{background-color: rgb(255, 190, 51); } 
+  100%{background-color:rgb(255, 239, 204); }
+ }
+ @-webkit-keyframes ground{
+  0%{background-color: rgb(0, 179, 60);}
+  30%{background-color:rgb(0, 179, 60);}
+
+  50%{background-color: rgb(0, 102, 34);}
+  70%{background-color:rgb(20, 71, 37);}
+  100%{background-color:rgb(20, 71, 37);}
+ }
+ @keyframes ground{
+  0%{background-color: rgb(0, 179, 60);}
+  30%{background-color:rgb(0, 179, 60);}
+
+  50%{background-color: rgb(0, 102, 34);}
+  70%{background-color:rgb(20, 71, 37);}
+  100%{background-color:rgb(20, 71, 37);}
+ }
+ @-webkit-keyframes road{
+  0%{background-color:rgb(200, 200, 200);}
+  30%{background-color:rgb(200, 200, 200);}
+
+  50%{background-color: rgb(150,150, 150);}
+  70%{background-color:rgb(100, 100, 100);}
+  100%{background-color:rgb(100, 100, 100);}
+ }
+ @keyframes road{
+  0%{background-color:rgb(200, 200, 200);}
+  30%{background-color:rgb(200, 200, 200);}
+
+  50%{background-color: rgb(150,150, 150);}
+  70%{background-color:rgb(100, 100, 100);}
+  100%{background-color:rgb(100, 100, 100);}
+ }
+ @-webkit-keyframes house{
+  0%{background-color:rgb(255, 153, 153);}
+  30%{background-color:rgb(255, 153, 153);}
+
+  50%{background-color:rgb(255, 102, 102);}
+  70%{background-color:rgb(134, 45, 45);}
+  100%{background-color:rgb(134, 45, 45);}
+ }
+ @keyframes house{
+  0%{background-color:rgb(255, 153, 153);}
+  30%{background-color:rgb(255, 153, 153);}
+
+  50%{background-color:rgb(255, 102, 102);}
+  70%{background-color:rgb(134, 45, 45);}
+  100%{background-color:rgb(134, 45, 45);}
+ }
+ @-webkit-keyframes rightside{
+  0%{background-color:rgb(255, 255, 255);}
+  30%{background-color:rgb(255, 255, 255);}
+
+  50%{background-color:rgb(224, 224, 224);}
+  70%{background-color:rgb(179, 179, 179);}
+  100%{background-color:rgb(179, 179, 179);}
+ }
+ @keyframes rightside{
+  0%{background-color:rgb(255, 255, 255);}
+  30%{background-color:rgb(255, 255, 255);}
+
+  50%{background-color:rgb(224, 224, 224);}
+  70%{background-color:rgb(179, 179, 179);}
+  100%{background-color:rgb(179, 179, 179);}
+ }
+ @-webkit-keyframes door{
+  0%{background-color:rgb(77, 0, 38);}
+  50%{background-color:rgb(77, 0, 38);}
+ 
+  70%{background-color:rgb(255, 214, 51);}
+  100%{background-color:rgb(255, 214, 51);}
+ }
+ @keyframes door{
+  0%{background-color:rgb(77, 0, 38);}
+  50%{background-color:rgb(77, 0, 38);}
+ 
+  70%{background-color:rgb(255, 214, 51);}
+  100%{background-color:rgb(255, 214, 51);}
+ }
+@-webkit-keyframes smoke{
+  0%{opacity: 0.5;-webkit-transform:  scale(1,1)  ;transform:  scale(1,1)  ;} 
+  100%{opacity: 0;-webkit-transform:  scale(3,3) translate(-1vmin,-1vmin);transform:  scale(3,3) translate(-1vmin,-1vmin);}
+ }
+@keyframes smoke{
+  0%{opacity: 0.5;-webkit-transform:  scale(1,1)  ;transform:  scale(1,1)  ;} 
+  100%{opacity: 0;-webkit-transform:  scale(3,3) translate(-1vmin,-1vmin);transform:  scale(3,3) translate(-1vmin,-1vmin);}
+ }
+ *{
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Square721 BT','Montserrat', sans-serif;
+  
+
+ } 
+body{ 
+  background-color: rgb(130,130,130);
+  overflow: hidden;
+   } 
+ 
+.wallpaper{
+  position: absolute;
+  top: 0;
+  left:0;
+  width: 100%;
+  height: 100%;
+   background: -webkit-linear-gradient(45deg,rgb(77, 25, 25)50%,rgb(115, 38, 38) 50%);
+   background: -o-linear-gradient(45deg,rgb(77, 25, 25)50%,rgb(115, 38, 38) 50%);
+   background: linear-gradient(45deg,rgb(77, 25, 25)50%,rgb(115, 38, 38) 50%);
+   background-size: 20vmin 20vmin;
+}
+ .picture{
+  background-color: yellow;
+  width: 80vmin;
+  height: 80vmin;
+  border: 4vmin solid white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -44vmin 0 0-44vmin;
+  -webkit-animation: sky 15s infinite alternate;
+          animation: sky 15s infinite alternate;
+  -webkit-box-shadow: 1vmin 1vmin 5vmin black;
+          box-shadow: 1vmin 1vmin 5vmin black;
+overflow: hidden; } 
+
+ 
+
+.chimney{ position: absolute;
+  left: 35vmin;
+  bottom: 53vmin;
+  width: 3vmin;
+  height: 2vmin;
+  background-color: rgb(153, 51, 0); 
+}
+.house_rightSide1{
+   position: absolute;
+  left: 35vmin;
+  bottom: 45vmin;
+  width: 12vmin;
+  height: 8vmin;
+  background-color: white;
+  -webkit-animation: rightside 15s infinite alternate;
+          animation: rightside 15s infinite alternate;
+
+-webkit-transform: skew(30deg,0deg) translate(-4vmin,0);
+
+    -ms-transform: skew(30deg,0deg) translate(-4vmin,0);
+
+        transform: skew(30deg,0deg) translate(-4vmin,0);}
+
+
+.house_rightSide2{
+  position: absolute;
+  left: 35vmin;
+  bottom: 30vmin;
+  width: 10vmin;
+  height: 15vmin;
+  -webkit-animation: rightside 15s infinite alternate;
+          animation: rightside 15s infinite alternate;
+  
+}
+.house_roof{ 
+  position: absolute;
+  left: 10vmin;
+  bottom: 45vmin;
+  width: 25vmin;
+  height: 8vmin;
+  background-color:rgb(153, 51, 0);
+-webkit-transform: skew(-30deg,0deg) translate(2vmin,0);
+    -ms-transform: skew(-30deg,0deg) translate(2vmin,0);
+        transform: skew(-30deg,0deg) translate(2vmin,0);
+}
+.house_leftSide{
+  position: absolute;
+  left: 10vmin;
+  bottom: 30vmin;
+  width: 25vmin;
+  height: 15vmin; 
+  -webkit-animation: house 15s infinite alternate; 
+          animation: house 15s infinite alternate;
+
+}
+.house_door{ position: absolute;
+  left: 15vmin;
+  bottom: 30vmin;
+  width: 5vmin;
+  height: 7vmin;
+  border-radius: 5%;
+  -webkit-animation: door 15s infinite alternate;
+          animation: door 15s infinite alternate;
+}
+.house_window{ position: absolute;
+  left: 22vmin;
+  bottom: 35vmin;
+  width: 3vmin;
+  height: 5vmin;
+  border-radius: 5%;
+  -webkit-animation: door 15s infinite alternate;
+          animation: door 15s infinite alternate;
+  }
+.house_window2{position: absolute;
+  left: 27vmin;
+  bottom: 35vmin;
+  width: 3vmin;
+  height: 5vmin;
+  border-radius: 5%;
+  -webkit-animation: door 15s infinite alternate;
+          animation: door 15s infinite alternate;
+  }
+.garage_leftSide{
+   position: absolute;
+  left: 38vmin;
+  bottom: 30vmin;
+  width: 12vmin;
+  height: 7vmin;
+  -webkit-animation: house 15s infinite alternate;
+          animation: house 15s infinite alternate;
+  background-color: blue;
+}
+.garage_rightSide1{
+  position: absolute;
+  left: 50vmin;
+  bottom: 37vmin;
+  width: 6vmin;
+  height: 5vmin;
+  background-color: white;
+  -webkit-animation: rightside 15s infinite alternate;
+          animation: rightside 15s infinite alternate;
+-webkit-transform: skew(30deg,0deg) translate(-2vmin,0);
+    -ms-transform: skew(30deg,0deg) translate(-2vmin,0);
+        transform: skew(30deg,0deg) translate(-2vmin,0);
+
+}
+.garage_rightSide2{
+  position: absolute;
+  left: 50vmin;
+  bottom: 30vmin;
+  width: 5vmin;
+  height: 7vmin;
+  -webkit-animation: rightside 15s infinite alternate;
+          animation: rightside 15s infinite alternate;
+
+  background-color: white;
+}
+.garage_roof{
+  position: absolute;
+  left: 38vmin;
+  bottom: 37vmin;
+  width: 12vmin;
+  height: 5vmin;
+  background-color: rgb(153, 51, 0);
+-webkit-transform: skew(-30deg,0deg) translate(1vmin,0);
+    -ms-transform: skew(-30deg,0deg) translate(1vmin,0);
+        transform: skew(-30deg,0deg) translate(1vmin,0);
+
+}
+.garage_door{  
+  position: absolute;
+  left: 39vmin;
+  bottom: 30vmin;
+  width: 10vmin;
+  height: 5vmin;
+  background-color: rgb(77, 0, 38);}
+.garage_widow{
+  position: absolute;
+  left: 52vmin;
+  bottom: 32vmin;
+  width: 2vmin;
+  height: 4vmin; 
+  -webkit-animation: door 15s infinite alternate; 
+          animation: door 15s infinite alternate;
+}
+.ground{
+  position: absolute;
+  bottom: 0;
+  width: 80vmin;
+  height: 30vmin;
+  background-color: orange;
+  -webkit-animation: ground 15s infinite alternate;
+          animation: ground 15s infinite alternate;
+
+}
+.road1{
+  position: absolute;
+  bottom: 14vmin;
+  width: 80vmin;
+  height: 8vmin;
+  background-color: white;
+}
+.road2{
+  position: absolute;
+  left: 33vmin;
+  bottom: 10vmin;
+  width: 10vmin;
+  height: 20vmin;
+  background-color: blue;
+  -webkit-transform: skew(-30deg);
+      -ms-transform: skew(-30deg);
+          transform: skew(-30deg); 
+  -webkit-animation: road 15s infinite alternate; 
+          animation: road 15s infinite alternate;
+
+}
+.road3{
+  position: absolute;
+  bottom: 10vmin;
+  width: 80vmin;
+  height: 8vmin;
+  background-color: pink;
+  -webkit-animation: road 15s infinite alternate;
+          animation: road 15s infinite alternate;
+
+
+}
+.sunline{
+
+  width: 88vmin;
+  height: 88vmin;
+  border-radius: 50%;  
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  margin: -44vmin 0 0-44vmin;
+  -webkit-animation: rotate 15s infinite;
+          animation: rotate 15s infinite;
+
+}
+ .sun{
+    
+  width: 8vmin;
+  height: 8vmin;
+  border-radius: 50%; 
+  background-color: yellow;
+  -webkit-transform: translate(20vmin,0);
+      -ms-transform: translate(20vmin,0);
+          transform: translate(20vmin,0);
+  -webkit-animation: sun 15s infinite alternate;
+          animation: sun 15s infinite alternate;
+
+ }
+ .smoke{
+   position: absolute;
+  left: 33vmin;
+  bottom: 56vmin;
+  width: 3vmin;
+  height: 3vmin;
+  border-radius: 0 50% 0 50%;
+  background-color: white;
+  -webkit-animation: smoke linear 2s infinite;
+          animation: smoke linear 2s infinite;
+
+ }
+
+  .frame{ 
+  width: 80vmin;
+  height: 80vmin;
+  border: 4vmin solid white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -44vmin 0 0-44vmin; 
+
+ }
+ .msg{
+  width: 100%;
+  position: absolute;
+  bottom: 0; 
+  text-align: center;
+  color: white;
+  font-family: 'Square721 BT','Montserrat', sans-serif;
+  font-size: 20px;
+ }
+ .msg>a{
+  text-decoration: none; 
+  color: darkgray;
+  
+ }   
